@@ -1,0 +1,18 @@
+body{
+    background:  linear-gradient(rgba(0,0,50,0),rgba(0,0,50,0.5)),url(signupimage.jpg);
+    background-size: cover;
+    background-position: center;
+}
+
+.signup-box{
+    max-width: 700px;
+    float: none;
+    margin: 150px auto;
+    font-weight: 500;
+    
+}
+.box{
+    background: rgba(211,211,211,0.5);
+    padding: 30px;
+
+}
