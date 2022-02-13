@@ -1,0 +1,65 @@
+body {
+  margin: 0px;
+  background-color: #b23a48;
+}
+
+.dono a button {
+  width: 95px;
+  height: 46px;
+  border: 2px solid #242423;
+  border-radius: 14px;
+  font-weight: 500;
+  font-family: sans-serif;
+  background-color: #b23a48;
+  font-size: 18px;
+  color: white;
+  letter-spacing: 0.05px;
+  position: relative;
+  left: 903px;
+}
+
+.dono a button:hover {
+  background-color: white;
+  color: #b23a48;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.container button {
+  width: 95px;
+  height: 46px;
+  border: 2px solid #242423;
+  border-radius: 14px;
+  font-weight: 500;
+  font-family: sans-serif;
+  background-color: #b23a48;
+  font-size: 18px;
+  color: white;
+  letter-spacing: 0.05px;
+}
+
+.container button:hover {
+  background-color: white;
+  color: #b23a48;
+  border: 2px solid white;
+  cursor: pointer;
+}
+
+.container {
+  position: relative;
+  right: -1721px;
+  top: 2px;
+}
+
+.text {
+  text-align: center;
+  color: white;
+}
+
+.login-button {
+  display: inline-block;
+}
+
+.signup-button {
+  display: inline-block;
+}

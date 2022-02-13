@@ -1,0 +1,102 @@
+.header {
+  text-align: center;
+  margin-bottom: 63px;
+  left: -35px;
+  position: relative;
+  color: white;
+  font-size: 30px;
+}
+
+label {
+  display: inline-block;
+  width: 140px;
+  text-align: right;
+  font-size: 30px;
+  padding-top: 3px;
+  margin-right: 7px;
+  color: white;
+}
+
+.user_n {
+  margin-bottom: 70px;
+}
+
+.pass {
+  margin-bottom: 155px;
+}
+
+.form {
+  position: relative;
+  text-align: center;
+  left: 293px;
+  display: inline-block;
+  padding: 85px 8px;
+  width: 1226px;
+}
+
+input {
+  position: relative;
+  width: 514px;
+  height: 22px;
+  top: -4px;
+  border: 3px solid #4d5764;
+  background-color: #22333b;
+  border-radius: 10px;
+}
+
+.submit {
+  margin-top: 100px;
+}
+
+input[type="submit"] {
+  position: relative;
+  width: 189px;
+  height: 41px;
+  left: 29px;
+  top: -4px;
+  border-radius: 43px;
+  font-size: 26px;
+  font-family: Ubuntu;
+}
+
+body {
+  background-color: #22333b;
+  font-family: Ubuntu;
+}
+
+input:focus {
+  border: 2px solid white;
+  background-color: #333b44;
+  color: white;
+}
+
+input:valid {
+  border: 2px solid white;
+  background-color: #333b44;
+  color: white;
+}
+
+#button {
+  background-color: #22333b;
+}
+
+#button:hover {
+  background-color: white;
+  color: #22333b;
+  cursor: pointer;
+}
+
+.signup_query {
+  text-align: center;
+  color: white;
+  font-size: 20px;
+}
+
+.signup_query a {
+  color: #dde5b6;
+  text-decoration: none;
+}
+
+.signup_query a:hover {
+  text-decoration: underline;
+}
