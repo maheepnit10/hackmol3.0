@@ -1,0 +1,121 @@
+body{
+    background-image: url(hunger.jpg);
+    background-repeat: no-repeat;
+   background-size: cover;
+   background-color: rgba(0, 0, 0, 0.605);
+   background-blend-mode:darken;
+   
+   
+
+}
+#login_button{
+  margin-right: 0%;
+
+  
+}
+.top{
+    color: white;
+    font-size: large;
+
+}           
+#login_button{
+    font-weight: 900;
+height: 40px;
+width: 100px;
+background-color: red;
+border-color: red;
+color: white;
+border-radius: 15px;
+
+}
+#heading1{
+    
+    margin-left: 38%; 
+     align-content: center;
+    color: white;
+    text-align:center;
+    font-size:30px;
+    border-bottom: solid;
+   border-color: red;
+   padding-bottom: 15px;
+   
+}
+#heading2{
+    color: white;
+    text-align:center;
+    font-size:60px;
+    font-weight: 800;
+}
+#donate_button{
+    text-align: center;
+    align-content:center ;
+font-size: 20px;
+    font-weight: 900;
+height: 60px;
+width: 150px;
+border-color: red;
+background-color: red;
+color: white;
+border-radius: 25px;
+}
+#donatediv{
+    text-align: center;
+}
+.article1{
+    display:inline-block;
+    margin-left: 50px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    height: 350px;
+    width: 300px;
+    border-style: solid;
+    border-color: white;
+    background-color: rgba(211, 211, 211, 0.292);
+}
+
+.readmore1{
+    font-weight: 900;
+    height: 40px;
+    width: 150px;
+    background-color: red;
+    border-color: red;
+    color: white;
+    border-radius: 15px;   
+}
+
+.heading{
+    color:black;
+}
+
+#social_links{
+    text-align: center;
+    font-size:50px;
+    color: white;
+    
+
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 50px;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+  .fa:hover {
+    opacity: 0.7;
+  }
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-instagram{
+      background-color: rgb(189, 28, 160);
+      color: white;
+
+  }
