@@ -1,0 +1,213 @@
+body{
+    background-size: cover;
+}
+.link{
+    text-decoration: none;
+    color:#333;
+    
+}
+
+
+/* Nav Bar */
+ nav{ 
+     position: fixed;
+    margin: 0 0 0 0;
+    padding: 0 0 0 0;
+    height:2em;
+    width:100%;
+    background-color:#E3BEC6 ;
+}
+
+ .brand 
+{
+    
+    font-family: 'Lora', serif;
+    font-size: larger;
+    font-weight: bold;
+    color: #1572A1;
+    display: inline;
+    position:fixed;
+    top:0;
+    left:0;
+    padding-left: 10%;
+    margin: 0.25em 4em;
+    padding-right: 60%; 
+}
+.top-c0{
+    display: inline-block;
+    margin:0.5em;
+    height:1.5em;
+    position :absolute;
+    left:45%;
+
+}
+.top-c1{
+    display: inline-block;
+    margin:0.5em;
+    height:1.5em;
+    position :absolute;
+    left:50%;
+}
+.top-c2{
+    display: inline-block;
+    margin:0.5em;
+    height:1.5em;
+    position :absolute;
+    left:59%;
+}
+.top-c3{
+    display: inline-block;
+    margin:0.5em;
+    height:1.5em;
+    position :absolute;
+    left:69%;
+}
+.top-c4{
+    display: inline-block;
+    margin:0.5em;
+    height:1.5em;
+    position :absolute;
+    left:73%;
+}
+.login{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: medium;
+    font-weight: 800;
+    color:black;
+    display: inline;
+    position: fixed; 
+    top: 5px;
+    right: 20px;
+    padding: auto 10px;  
+} 
+
+/* Background Image */
+.first-look{
+    background-color:#c571ac;
+    margin-bottom: 5%;
+}
+.imgbox {
+    display: inline-block;
+    
+}
+.center-fit {
+    max-width: 70%;
+    
+    margin: 0% 10% 0 0;
+}
+/* Quote */
+
+.quote-line{
+    width:60%;
+    font-family: Arial, Helvetica, sans-serif;
+    text-shadow: 0 0 3px #333;
+    color:whitesmoke;
+    font-size:4em;
+    display:inline-block;
+    position:absolute;
+    top:40%;
+    right:10%;
+}
+
+.quoter{
+    font-family:'Courier New', Courier, monospace;
+    font-weight: bolder;
+
+    font-size: large;
+    display:block;
+    position:absolute;
+    right:15%;
+    top:70%;
+}
+
+
+/* footer */
+.footer{
+    background-color:#c571ac;
+    height:100%;
+    width:100%;
+    /* margin-top: 2em; */
+    
+}
+
+/* counting meters */
+.counting-meters{
+    display: inline-block;
+   
+    position:relative;
+    align-items: left;
+    padding-left: 10%;
+    
+    padding-bottom: 7%;
+    height: 20%;
+    width:40%;
+
+}
+.meters{
+    height:4em;
+    width:4em;
+    margin-left: 10%;
+    margin-bottom: 10%;
+    margin-top:8%;
+    
+
+}
+
+
+/* connect apps */
+.connect-apps{
+    align: right;
+    display: inline-block;
+    height: 20%;
+    width:50%;
+    padding: 5% 2% 5% 8%;
+}
+.connect{
+    position: relative;
+    margin: 0 4% 2% 0;
+    font-size: 2em;
+    font-weight: 700;
+    text-align: right;
+    padding: 7% 1% 3% 5%;
+}
+
+.iconf{
+    position:relative;
+    left: 60%;
+    height:4em;
+    width:4em;
+    margin-right: 3%;
+    margin-bottom: 3%;
+}
+.iconi{
+    position:relative;
+    left: 60%;
+    height:4em;
+    width:4em;
+    margin-right: 3%;
+    margin-bottom: 3%;
+    
+}
+.icont{
+    position:relative;
+    left: 60%;
+    height:4em;
+    width:4em;
+    margin-right: 20%;
+    margin-bottom: 3%;
+
+}
+
+
+/* Articles */
+.text{
+    margin:10%;
+   
+    align:center;
+    font-family: 'Roboto', sans-serif;
+    font-size: 3rem;
+}
+.a-img{
+    max-width: 90%;
+    margin: 0 25% 10%;
+}
