@@ -26,6 +26,14 @@ session_start();
                         <label>Name</label>
                         <input type="text" name="username" class="form-control" required>
                     </div>
+                 <div class="form-group">
+                        <label for="gender">Gender</label><br>
+                        <select id="gender" name="gender">
+                          <option value="male">Male</option>
+                          <option value="female">Female</option>
+                          <option value="others">others</option>
+                        </select>
+                    </div>
                     <div class="form-group">
                         <label>Contact</label>
                         <input type="text" name="usercontact" class="form-control" required>
@@ -36,11 +44,11 @@ session_start();
                     </div>
                     <div class="form-group">
                         <label>Password</label>
-                        <input type="text" name="password" class="form-control" required>
+                        <input type="password" name="password" class="form-control" required>
                     </div>
                     <div class="form-group">
                         <label>Confirm password</label>
-                        <input type="text" name="password1" class="form-control" required>
+                        <input type="password" name="password1" class="form-control" required>
                     </div><br>
                    <center><button type="submit" class="btn btn-primary">Register</button></center> 
                 </form>
