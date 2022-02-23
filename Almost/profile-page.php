@@ -18,12 +18,16 @@ else{
 }
 
 $msg=rand_msg();
+
 if(!isset($del)){
 $del=rand_del();
 }
+
+if(isset($user_data1['name'])){
 $times=$user_data1['times'];
 $people=$times*5+7;
 $amount=$times*3+5;
+}
 
 $query="select * from messages where id= '$msg'"; 
 $result=mysqli_query($con,$query);
@@ -36,15 +40,6 @@ $del_data=mysqli_fetch_assoc($result1);
 $del_name=$del_data['del_name'];
 $del_contact=$del_data['del_contact'];
 
-// $query="select * from messages where id= '$msg'"; 
-// $result=mysqli_query($con,$query);
-// $message=mysqli_fetch_assoc($result);
-// $m=$message['message'];
-
-// $query="select * from messages where id= '$msg'"; 
-// $result=mysqli_query($con,$query);
-// $message=mysqli_fetch_assoc($result);
-// $m=$message['message'];
 ?>
 
 <!DOCTYPE html>
