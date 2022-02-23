@@ -29,9 +29,9 @@ session_start();
                  <div class="form-group">
                         <label for="gender">Gender</label><br>
                         <select id="gender" name="gender">
-                          <option value="male">Male</option>
-                          <option value="female">Female</option>
-                          <option value="others">others</option>
+                          <option value="0">Male</option>
+                          <option value="1">Female</option>
+                          <option value="2">others</option>
                         </select>
                     </div>
                     <div class="form-group">
