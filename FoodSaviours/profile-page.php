@@ -58,7 +58,7 @@ $del_contact=$del_data['del_contact'];
 </head>
 <body>
     <div class="header">
-        <img  id="pp" src="<?php echo"$img_src"; ?>">
+        <img  id="pp" src="<?php echo"$img_src"; ?>"><br>
        <div id="username"><?= $user_data['username']?></div> <br><br>
        
     </div>
