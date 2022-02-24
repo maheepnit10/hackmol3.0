@@ -86,9 +86,7 @@ if(isset($_SESSION['user_id'])){
     </div>
     <br>
     <br>
-    <br>
-
-    <br>
+    
     <span id="heading1">ANNADATA SUKHIBHAVA</span>
     <br>
     <br>
