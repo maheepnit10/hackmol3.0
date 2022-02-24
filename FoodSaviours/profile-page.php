@@ -50,7 +50,11 @@ $del_contact=$del_data['del_contact'];
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <script src="script.js" defer></script>
   <link href="style1.css" rel="stylesheet">
-  <title>Tabs</title>
+   <!-- GOOGLE FONTS -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:wght@300&display=swap" rel="stylesheet">
+  <title>User Profile</title>
 </head>
 <body>
     <div class="header">
@@ -62,8 +66,8 @@ $del_contact=$del_data['del_contact'];
   <ul class="tabs">
     <li data-tab-target="#about" class="active tab">About</li>
     <li data-tab-target="#pick-up" class="tab">Pick-up</li>
-    <li data-tab-target="#history" class="tab">History</li>
-    <li data-tab-target="#happy-messages" class="tab">Happy Messages</li>
+    <li data-tab-target="#history" class="tab">Last Donation</li>
+    <li data-tab-target="#happy-messages" class="tab">Happy Messages&nbsp;<img class="message" src="photos/love (1).png"></li>
   </ul>
 
   <div class="tab-content">
@@ -100,26 +104,23 @@ $del_contact=$del_data['del_contact'];
     </div>
 
     <div id="history" data-tab-content>
-     <table>
-       <tr>
-         <td><strong>Date</strong></td>
-         <td><strong>Place</strong></td>
-         <td><strong>Food(in kg)</strong></td>
-         <td><strong>People feeded</strong></td>
-       </tr>
-       <tr >
-         <td><?php if(!isset($user_data1['name'])){echo ("N/A") ;}else{echo ("$user_data1[date]");}?></td>
-         <td><?php if(!isset($user_data1['name'])){echo ("N/A") ;}else{echo ("$user_data1[location_1]");}?></td>
-         <td><?php if(!isset($user_data1['name'])){echo ("N/A") ;}else{echo "$amount";}?></td>
-         <td><?php if(!isset($user_data1['name'])){echo ("N/A") ;}else{echo ("$people");}?></td>
-       </tr>
-     </table>
+      <img class="ld" src="photos/emoji.png">
+      <div class="last-donation">
+         Date:<br><br>
+         Place:<br><br>
+         Food(in kg):<br><br>
+         People feeded:<br><br>
+        </div>
+    
     </div>
 
-    <div id="happy-messages" data-tab-content>
-      <h2><?= $m;?></h2>
-        
+    <div  class="hm" id="happy-messages" data-tab-content>
+      
+      “The purpose of our lives is to be happy.”
+      <br><img class="happy" src="photos/happy.png">
     </div>
+
+  </div>
 
   </div>
 
