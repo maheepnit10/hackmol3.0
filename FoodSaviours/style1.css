@@ -5,6 +5,9 @@
 .active[data-tab-content] {
   display: block;
 }
+.header{
+    text-align: center;
+  }
 
 body {
   background-color: bisque;
@@ -62,8 +65,8 @@ body {
 }
 
 #pp {
-  height: 200px;
-  width: 200px;
+  height: 300px;
+  width: 300px;
   padding-left: 50px;
 }
 
