@@ -12,7 +12,7 @@ body {
     background-image: url(logo.png);
     background-repeat: no-repeat;
     background-size: 12%;
-    background-position-x: 20px;
+    background-position-x: 50%;
 }
 .top {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
