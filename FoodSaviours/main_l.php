@@ -62,16 +62,25 @@ $user_data=check_login($con);
             us</a></span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span id="FAQ" class="top"><a href="FAQ's.html"
             style="text-decoration: none; color: rgb(255, 255, 255);">FAQ</a></span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
     <a href="logout.php"><input type="button" value="LOGOUT" id="login_button"></a>
+     <br>
+    <br>
+    <div id="logo">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+    </div>
     <br>
     <br>
     <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+
     <br>
     <span id="heading1">ANNADATA SUKHIBHAVA</span>
     <br>
