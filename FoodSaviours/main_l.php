@@ -79,9 +79,7 @@ $user_data=check_login($con);
     </div>
     <br>
     <br>
-    <br>
-
-    <br>
+   
     <span id="heading1">ANNADATA SUKHIBHAVA</span>
     <br>
     <br>
