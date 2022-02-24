@@ -71,14 +71,23 @@ if(isset($_SESSION['user_id'])){
     <a href="signup.php"><input type="button" value="SIGNUP" id="login_button"></a>
     <br>
     <br>
+    <div id="logo">
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+        <br>
+
+    </div>
     <br>
     <br>
     <br>
-    <br>
-    <br>
-    <br>
-    <br>
-    <br>
+
     <br>
     <span id="heading1">ANNADATA SUKHIBHAVA</span>
     <br>
