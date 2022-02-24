@@ -8,6 +8,12 @@ body {
 #login_button {
   margin-right: 0%;
 }
+#logo{
+    background-image: url(logo.png);
+    background-repeat: no-repeat;
+    background-size: 12%;
+    background-position-x: 20px;
+}
 .top {
   font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
   color: rgb(255, 255, 255);
