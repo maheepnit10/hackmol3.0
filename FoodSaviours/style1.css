@@ -77,13 +77,34 @@ body {
   font-size: xx-large;
   margin-top: 10%;
 }
-table {
-  border: 4px solid;
-  margin-left: 20%;
-  margin-top: 4%;
-}
-td {
-  border: 2px #aaa solid;
-  font-size: x-large;
-  padding: 10px 90px;
-}
+
+  .hm{
+    font-family:'Dancing Script', cursive;
+    font-size: 80px;
+    text-align: center;
+    padding-top: 10%;
+  }
+  .happy{
+    height:100px;
+    width:100px;
+  }
+  .message{
+    height:32px;
+    width: auto;
+    
+  }
+  #history{
+    
+    display: flex;
+
+  }
+  .last-donation{
+    margin-top: 5%;
+    margin-left: 5%;
+    font-size: xx-large;
+    padding: 4%;
+
+  }
+  .ld{
+    margin: 2% 0 0 5%;
+  }
