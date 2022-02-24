@@ -1,0 +1,58 @@
+body {
+  background-image: url(image3.jpg), url(image4.jpg), url(background5.jpg);
+  background-repeat: no-repeat;
+  background-size: 35%, 23%, cover;
+  background-position-x: 900px, 200px, 0px;
+  background-position-y: 200px, 520px, 0px;
+}
+.top {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  color: rgb(0, 0, 0);
+  font-size: large;
+  text-decoration: none;
+  font-weight: 900px;
+}
+#login_button {
+  font-weight: 900;
+  height: 40px;
+  width: 100px;
+  font-size: 15px;
+  background-color: red;
+  border-color: red;
+  color: white;
+  border-radius: 15px;
+}
+
+#heading {
+  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
+  margin-left: 37%;
+  text-align: center;
+  font-size: 40px;
+  border-bottom: red;
+  border-bottom-style: solid;
+  width: 400px;
+  padding-bottom: 10px;
+}
+#content {
+  font-size: 25px;
+  height: 250px;
+  width: 800px;
+  margin-left: 10px;
+}
+#heading2 {
+  font-size: 25px;
+  margin-left: 800px;
+}
+#points {
+  font-size: 25px;
+  height: 300px;
+  width: 600px;
+  margin-left: 800px;
+}
+#endline {
+  font-size: 25px;
+}
+#highlight {
+  color: red;
+  font-weight: 400;
+}
