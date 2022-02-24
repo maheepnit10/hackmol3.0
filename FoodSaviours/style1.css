@@ -96,18 +96,16 @@ body {
     width: auto;
     
   }
-  #history{
-    
-    display: flex;
-
-  }
+  
   .last-donation{
-    margin-top: 5%;
+    margin-bottom: 2%;
     margin-left: 5%;
     font-size: xx-large;
     padding: 4%;
+    display: inline-block;
 
   }
   .ld{
     margin: 2% 0 0 5%;
+    display: inline-block;
   }
