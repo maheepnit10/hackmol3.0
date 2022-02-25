@@ -62,7 +62,7 @@ else{
     &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
     &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
     &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-    <span id="home" class="top"><a href="<?= $url ?>"
+    <span id="home" class="top"><a href="<?= $url?>"
             style="text-decoration: none; color: rgb(0, 0, 0);">Home</a></span> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <span
         id="our mission" class="top"><a href="ourmission.php" style="text-decoration: none;color: rgb(0, 0, 0);">Our
             Mission</a></span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <span is="how_we_work" class="top"><a href="howwework.php"
@@ -71,7 +71,7 @@ else{
     <span id="contact_us" class="top"><a style="color: black;">Contact us</a></span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span
         id="FAQ" class="top"><a href="FAQ's.php"
             style="text-decoration: none; color: rgb(0, 0, 0);">FAQ</a></span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-    <a href="login.php"><input type="button" value="LOGIN" id="login_button"></a>
+    <input type="button" value="LOGIN" id="login_button">
     <br>
     <br>
     <br>
