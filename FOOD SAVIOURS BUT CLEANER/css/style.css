@@ -1,0 +1,39 @@
+body {
+  background: linear-gradient(rgba(0, 0, 50, 0), rgba(0, 0, 50, 0.5)),
+    url(../photos/loginimage.jpg);
+  background-size: cover;
+  background-position: center;
+}
+
+.login-box {
+  max-width: 700px;
+  float: none;
+  margin: 150px auto;
+  font-weight: 500;
+}
+
+.login-left {
+  background: rgba(211, 211, 211, 0.5);
+  padding: 30px;
+}
+
+.login-right {
+  background: white;
+  padding: 30px;
+}
+
+.error-msg {
+  text-align: center;
+  color: red;
+  background-color: rgba(185, 183, 183, 0.5);
+  margin-top: 0.5em;
+  font-size: 1.1em;
+}
+
+.sign-up-link {
+  text-decoration: none;
+}
+
+.sign-up-link {
+  text-decoration: underline;
+}
