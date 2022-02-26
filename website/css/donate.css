@@ -1,0 +1,30 @@
+body {
+  background: linear-gradient(rgba(0, 0, 50, 0), rgba(0, 0, 50, 0.5)),
+    url(../photos/backgroundimg.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.donate-box {
+  max-width: 700px;
+  float: none;
+  margin: 100px auto;
+  font-weight: 500;
+}
+.donate-left {
+  background: rgba(211, 211, 211, 0.1);
+  padding: 30px;
+}
+.donate-right {
+  background: rgba(211, 211, 211, 0.6);
+  padding: 30px;
+}
+h2 {
+  color: black;
+  font-weight: 500;
+  font-size: medium;
+  font-style: oblique;
+}
+p {
+  font-weight: 500;
+  color: black;
+}

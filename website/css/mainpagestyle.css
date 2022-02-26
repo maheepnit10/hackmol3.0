@@ -1,0 +1,228 @@
+body{
+    background-image: url(../photos/hunger.jpg);
+    background-repeat: no-repeat;
+   background-size: cover;
+   background-color: rgba(0, 0, 0, 0.605);
+   background-blend-mode:darken;
+  
+   
+   
+
+}
+#login_button{
+  margin-right: 0%;
+
+  
+}
+
+#logo{
+    background-image: url(../photos/logo.png);
+    background-repeat: no-repeat;
+    background-size: 230px;
+    background-position-x: 50%;
+    
+}
+
+                                                            /* edit starts*/
+
+ .top{
+    font-family: Arial, Helvetica, sans-serif;
+    color: rgb(255, 255, 255);
+    font-size: medium;
+    font-style: normal;
+    font-weight: 700;
+    
+    }   
+    
+                                                            /* edit ends */
+#login_button{
+    font-weight: 900;
+height: 40px;
+width: 100px;
+font-size: 15px;
+background-color: red;
+border-color: red;
+color: white;
+border-radius: 15px;
+
+}
+ #heading1{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;     
+     align-content: center;
+    color: white;
+    text-align:center;
+    font-size:30px;
+    border-bottom: solid;
+   border-color: red;
+   padding-bottom: 15px;
+   
+} 
+#heading2{
+    color: white;
+    text-align:center;
+    font-size:60px;
+    font-weight: 800;
+}
+#donate_button{
+    text-align: center;
+    align-content:center ;
+font-size: 20px;
+    font-weight: 900;
+height: 60px;
+width: 150px;
+border-color: red;
+background-color: red;
+color: white;
+border-radius: 25px;
+}
+#donatediv{
+    text-align: center;
+}
+/* .article1{
+    display:inline-block;
+    margin-left: 50px;
+    text-align: center;
+    font-size: 20px;
+    color: white;
+    height: 350px;
+    width: 300px;
+    border-style: solid;
+    border-color: white;
+    background-color: rgba(211, 211, 211, 0.292);
+} */
+
+.readmore1{
+    font-weight: 900;
+    height: 40px;
+    width: 150px;
+    background-color: red;
+    border-color: red;
+    color: white;
+    border-radius: 15px;   
+}
+
+.heading{
+    color:black;
+}
+
+#social_links{
+    text-align: center;
+    font-size:50px;
+    color: white;
+    
+
+}
+.fa {
+    padding: 20px;
+    font-size: 30px;
+    width: fit-content;
+    text-align: center;
+    text-decoration: none;
+  }
+  
+
+  .fa-facebook {
+    background: #3B5998;
+    color: white;
+
+  }
+  .fa-twitter {
+    background: #55ACEE;
+    color: white;
+  }
+  .fa-instagram{
+      background-color: rgb(189, 28, 160);
+      color: white;
+
+  }
+
+
+                                                                 /* edit */
+
+  .article_1,.article_2,.article_3,.article_4{
+    display: inline-block;
+    background: rgba(211, 211, 211, 0.4);
+    margin-inline-start: 10px; 
+    padding: 50px;
+    width: 400px;
+    height: fit-content;
+}
+
+header {
+    /* set flex-parent, makes direct
+       children flex-children */
+    display: -webkit-flex;
+    display: flex;
+    
+    /* direct childen of the header
+       should wrap */
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+  
+    /* make it pretty */
+    background: rgba(211, 211, 211, 0);
+    
+  }
+  
+  header nav {
+    /* as a flex child, grow and shrink as needed,
+       use current width as base width */
+    -webkit-flex: 1 1 auto;
+    flex: 1 1 auto;
+    
+    /* change padding not to add to overall width */
+    box-sizing: border-box;
+    /* set left and right padding to 10% of
+       available space */
+    padding: 0 10%;
+    
+    /* make this element also a flex-parent */
+    display: -webkit-flex;
+    display: flex;
+    
+    /* direct childen (in this case, the links)
+       should be vertically centered inside of this element */
+    -webkit-align-items: none;
+    align-items: center;
+  
+    /* direct childen (in this case, the links)
+       should be horizontally centered inside of this element */
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+  }
+  
+  
+  header nav a {
+    /* as a flex child, never ever grow and shrink,
+       use curremt width as base width */
+    -webkit-flex: 0 0 auto;
+    flex: 0 0 auto;
+    
+    /* change padding not to add to overall width */
+    box-sizing: border-box;
+  
+    /* hard code width and height */
+    width: 50px;
+    height: 50px;
+    
+    /* add 10px of margin to top, right, bottom, and left */
+    margin: 10px;
+    
+    /* make it pretty */
+    background: linear-gradient(rgba(211,211,211,0.6));   
+    width: fit-content;
+    color: white;
+    text-decoration: none;
+    text-align: none;
+    
+    
+    /* make this element also a flex-parent */
+    display: -webkit-flex;
+    display: flex;
+    
+    /* direct childen (in this case, the link text)
+       should be vertically centered inside of this element */
+    -webkit-align-items: center;
+    align-items: center;
+    
+  }
