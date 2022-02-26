@@ -17,6 +17,10 @@ else{
 <html>
 
 <head>
+
+     <!-- BOOTSTRAP CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
     <meta charset="UTF-8">
     <meta name="viewport" content="width = device-width, initial-scale-1.0">
     <link rel="stylesheet" href="css/ourmissionstyle.css">
@@ -47,31 +51,23 @@ else{
 <body>
 
 
+                                                   <!-- edit -->
 
-
-    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-    <span id="home" class="top"><a  style="text-decoration: none; color: rgb(0, 0, 0);" href="<?= $url?>">
-    Home</a></span> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <span
-        id="our mission" class="top">Our
-        Mission</span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <span is="how_we_work" class="top"><a href="howwework.php"
-            style="text-decoration:none; color: rgb(0, 0, 0);">How we
+    <header>
+        <nav>
+        
+            <a href="<?=$url?>" style="text-decoration: none;color:rgb(255,255,255);">Home</span> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <span id="our mission" class="top"><a
+            href="ourmission.php" style="text-decoration: none;color: rgb(255, 255, 255);">Our
+            Mission</a></span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <span is="how_we_work" class="top"><a href="howwework.php"
+            style="text-decoration:none; color: white;">How we
             work</a></span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-    <span id="contact_us" class="top"><a href="contact-us.php"
-            style="text-decoration: none; color: rgb(0, 0, 0);">Contact us</a></span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span
-        id="FAQ" class="top"><a href="FAQ's.php"
-            style="text-decoration: none; color: rgb(0, 0, 0);">FAQ</a></span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-    <input type="button" value="LOGIN" id="login_button">
+    <span id="contact_us" class="top"><a href="contact-us.php" style="text-decoration: none; color: white;">Contact
+            us</a></span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span id="FAQ" class="top"><a href="FAQ's.php"
+            style="text-decoration: none; color: rgb(255, 255, 255);">FAQ</a></span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+    </nav>
+    </header> 
+
+                                                      <!-- edit ends -->
     <br>
     <br>
     <br>
@@ -135,16 +131,7 @@ else{
                 </li>
                 <br>
                 <br>
-                <li>
-                    <div class="subtopics highlight">
-                        Food Solution
-                    </div>
-
-                    <div class="subtopiccontent">
-                        To raise awareness among Food businesses by encouraging them to adopt good practices to reduce
-                        food loss and food waste in their supply chains and sharing good practices
-                    </div>
-                </li>
+                
             </ul>
         </form>
     </div>
