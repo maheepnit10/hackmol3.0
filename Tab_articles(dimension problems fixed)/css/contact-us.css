@@ -1,0 +1,126 @@
+body{
+    background-color:#E9A6A6;
+}
+#login_button{
+    font-weight: 900;
+    height: 40px;
+    width: 100px;
+    font-size: 15px;
+    background-color: red;
+    border-color: red;
+    color: white;
+    border-radius: 15px;
+    
+  }
+  .top{
+      font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+      color: rgb(255, 255, 255);
+      font-size: large;
+      text-decoration: none;
+      
+  }
+
+.heading{
+    font-size: 60px;
+    text-align: center;
+    color:#3F3351;
+}
+h1{
+    color:#1F1D36;
+    text-emphasis: none;
+    margin-left: 10%;
+    margin-top: 10%;
+}
+.contact{
+    text-align: center;
+    font-size: xx-large;
+} 
+.profile{
+    margin-left: 10%;
+    height:300px;
+    width: 300px;
+    border-radius: 150px;
+}
+.profile:hover{
+    box-shadow: 0 0 5px 2.5px rgba(0, 140, 186, 0.5);
+}
+img{
+    height:40px;
+    width:40px;
+    margin-left: 0.5em;
+}
+img:hover{
+    box-shadow: 0 0 4px 2px rgba(0, 140, 186, 0.5);
+}
+.person{
+    display:inline-flex;
+    margin:5%;
+}
+/* edit starts */
+header {
+    
+    display: -webkit-flex;
+    display: flex;
+    
+    
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+  
+    
+    background: rgb(2, 2, 2);
+    
+  }
+  
+  header nav {
+    
+    -webkit-flex: 1 1 auto;
+    flex: 1 1 auto;
+    
+    
+    box-sizing: border-box;
+    
+    padding: 0 10%;
+    
+    
+    display: -webkit-flex;
+    display: flex;
+    
+
+    -webkit-align-items: none;
+    align-items: center;
+  
+    
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+  }
+  
+  
+  header nav a {
+    
+    -webkit-flex: 0 0 auto;
+    flex: 0 0 auto;
+    
+    
+    box-sizing: border-box;
+  
+    width: 50px;
+    height: 50px;
+    
+    margin: 10px;
+    
+    background: linear-gradient(rgba(211,211,211,0.6));   
+    width: fit-content;
+    color: white;
+    text-decoration: none;
+    text-align: none;
+    
+    
+    display: -webkit-flex;
+    display: flex;
+    
+   
+    -webkit-align-items: center;
+    align-items: center;
+    
+  }
+  /* ends */
