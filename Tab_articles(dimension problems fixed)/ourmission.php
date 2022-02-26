@@ -42,14 +42,13 @@
         <nav>
         
             <a href="main.php" style="text-decoration: none;color:rgb(255,255,255);">Home</span> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <span id="our mission" class="top"><a
-            href="ourmission.html" style="text-decoration: none;color: rgb(255, 255, 255);">Our
-            Mission</a></span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <span is="how_we_work" class="top"><a href="howwework.html"
+            href="ourmission.php" style="text-decoration: none;color: rgb(255, 255, 255);">Our
+            Mission</a></span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <span is="how_we_work" class="top"><a href="howwework.php"
             style="text-decoration:none; color: white;">How we
             work</a></span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-    <span id="contact_us" class="top"><a href="contact-us.html" style="text-decoration: none; color: white;">Contact
-            us</a></span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span id="FAQ" class="top"><a href="FAQ's.html"
+    <span id="contact_us" class="top"><a href="contact-us.php" style="text-decoration: none; color: white;">Contact
+            us</a></span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span id="FAQ" class="top"><a href="FAQ's.php"
             style="text-decoration: none; color: rgb(255, 255, 255);">FAQ</a></span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-    <a href="login.php"><button type="button" class="btn btn-danger">Login</button></a>&nbsp
     </nav>
     </header> 
 
