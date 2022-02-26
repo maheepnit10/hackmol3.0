@@ -1,59 +1,136 @@
-body {
-  background-image: url(../photos/image3.jpg), url(../photos/image4.jpg),
-    url(../photos/background5.jpg);
-  background-repeat: no-repeat;
-  background-size: 35%, 23%, cover;
-  background-position-x: 900px, 200px, 0px;
-  background-position-y: 200px, 520px, 0px;
+body{
+    background-image: url(../photos/image3.jpg),url(../photos/image4.jpg),url(../photos/background5.jpg);
+    background-repeat: no-repeat;
+    background-size: 500px,300px,cover;
+    background-position-x: 900px,200px,0px ;
+    background-position-y: 350px,900px,0px;
 }
-.top {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  color: rgb(0, 0, 0);
-  font-size: large;
-  text-decoration: none;
-  font-weight: 900px;
-}
-#login_button {
-  font-weight: 900;
-  height: 40px;
-  width: 100px;
-  font-size: 15px;
-  background-color: red;
-  border-color: red;
-  color: white;
-  border-radius: 15px;
+.top{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(0, 0, 0);
+    font-size: large;
+    text-decoration: none;
+    font-weight:900px;
+    
+    
+
+}           
+#login_button{
+    font-weight: 900;
+height: 40px;
+width: 100px;
+font-size: 15px;
+background-color: red;
+border-color: red;
+color: white;
+border-radius: 15px;
+
 }
 
-#heading {
-  font-family: Cambria, Cochin, Georgia, Times, "Times New Roman", serif;
-  margin-left: 37%;
-  text-align: center;
-  font-size: 40px;
-  border-bottom: red;
-  border-bottom-style: solid;
-  width: 400px;
-  padding-bottom: 10px;
+#heading{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin-left: 37%;
+    text-align: center;
+    font-size: 40px;
+    border-bottom: red;
+    border-bottom-style: solid;
+    width: 400px;
+    padding-bottom: 10px;
+
+    
 }
-#content {
-  font-size: 25px;
-  height: 250px;
-  width: 800px;
-  margin-left: 10px;
+#content{
+    font-size: 25px;
+    height: 250px;
+    width: 800px;
+    margin-left: 10px;
+    
 }
-#heading2 {
-  font-size: 25px;
-  margin-left: 800px;
+#heading2{
+    font-size: 25px;
+    margin-left: 800px;
+
+
 }
-#points {
-  font-size: 25px;
-  height: 300px;
-  width: 600px;
-  margin-left: 800px;
+#points{
+    font-size: 25px;
+    height: 300px;
+    width: 600px;
+    margin-left: 800px;
+    
 }
-#endline {
-  font-size: 25px;
+#endline{
+    font-size:25px;
 }
-#highlight {
-  color: red;
-  font-weight: 400;
+#highlight{
+    color: red;
+    font-weight: 400;
 }
+/* edit starts */
+header {
+    
+    display: -webkit-flex;
+    display: flex;
+    
+    
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+  
+    
+    background: rgb(2, 2, 2);
+    
+  }
+  
+  header nav {
+    
+    -webkit-flex: 1 1 auto;
+    flex: 1 1 auto;
+    
+    
+    box-sizing: border-box;
+    
+    padding: 0 10%;
+    
+    
+    display: -webkit-flex;
+    display: flex;
+    
+
+    -webkit-align-items: none;
+    align-items: center;
+  
+    
+    -webkit-justify-content: space-around;
+    justify-content: space-around;
+  }
+  
+  
+  header nav a {
+    
+    -webkit-flex: 0 0 auto;
+    flex: 0 0 auto;
+    
+    
+    box-sizing: border-box;
+  
+    width: 50px;
+    height: 50px;
+    
+    margin: 10px;
+    
+    background: linear-gradient(rgba(211,211,211,0.6));   
+    width: fit-content;
+    color: white;
+    text-decoration: none;
+    text-align: none;
+    
+    
+    display: -webkit-flex;
+    display: flex;
+    
+   
+    -webkit-align-items: center;
+    align-items: center;
+    
+  }
+  /* ends */
