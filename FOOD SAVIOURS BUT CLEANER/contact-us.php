@@ -18,6 +18,10 @@ else{
 <head>
     <title>FOOD SAVIORS</title>
     <!-- GOOGLE FONTS -->
+
+     <!-- BOOTSTRAP CSS only -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3" crossorigin="anonymous">
+
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&family=Roboto:wght@300&display=swap"
@@ -50,33 +54,23 @@ else{
 </head>
 
 <body>
-    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-    &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-    <span id="home" class="top"><a href="<?= $url?>"
-            style="text-decoration: none; color: rgb(0, 0, 0);">Home</a></span> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <span
-        id="our mission" class="top"><a href="ourmission.php" style="text-decoration: none;color: rgb(0, 0, 0);">Our
+                                                 <!-- edit.. -->
+    <header>
+        <nav>
+        
+            <a href="<?= $url ?>" style="text-decoration: none;color:rgb(255,255,255);">Home</span> &nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <span id="our mission" class="top"><a
+            href="ourmission.php" style="text-decoration: none;color: rgb(255, 255, 255);">Our
             Mission</a></span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp <span is="how_we_work" class="top"><a href="howwework.php"
-            style="text-decoration:none; color: rgb(0, 0, 0);">How we
+            style="text-decoration:none; color: white;">How we
             work</a></span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-    <span id="contact_us" class="top"><a style="color: black;">Contact us</a></span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span
-        id="FAQ" class="top"><a href="FAQ's.php"
-            style="text-decoration: none; color: rgb(0, 0, 0);">FAQ</a></span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
-    <input type="button" value="LOGIN" id="login_button">
+    <span id="contact_us" class="top"><a href="contact-us.php" style="text-decoration: none; color: white;">Contact
+            us</a></span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp<span id="FAQ" class="top"><a href="FAQ's.php"
+            style="text-decoration: none; color: rgb(255, 255, 255);">FAQ</a></span>&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp&nbsp
+</nav>
+</header>                         
+                          <!-- edit -->
     <br>
-    <br>
-    <br>
-    <br>
-    <br>
+   
 
     <div class="heading">Our Team</div><br>
     <hr>
@@ -90,14 +84,14 @@ else{
         </h1><br>
     </div>
     <div class="person">
-        <img class="profile" src="photos/kavish.png">
+        <img class="profile" src="photos/kavish">
         <h1>Kavish Soni&nbsp;<br><br>
             <a href=""></a><img src="photos/ig-instagram.svg">&nbsp;
             <a href=""></a><img src="photos/linkedin.png">
         </h1><br>
     </div>
     <div class="person">
-        <img class="profile" src="photos/maheep.png">
+        <img class="profile" src="photos/maheep.jpeg">
         <h1>Maheep Nigam&nbsp;<br><br>
             <a href="https://instagram.com/maheep_1001?utm_medium=copy_link"><img
                     src="photos/ig-instagram.svg"></a>&nbsp;
