@@ -47,12 +47,11 @@ up's the food and distributes it with help of the NGO's. We either put up a lang
 food or distribute it using the moving vans.
 
 
-How do we function<br>
 <img src="FOOD SAVIOURS BUT CLEANER/photos/how_we_work.png">
 
 
 
-Video Link
+Video Link:
 
 
 
