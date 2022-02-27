@@ -1,5 +1,5 @@
 ### 🔥 HACKMOL 3.0 🔥
-Project : FOOD SAVIOURS <br><img src="FOOD SAVIOURS/photos/logo.png">
+Project : FOOD SAVIOURS <br><img src="FOOD SAVIOURS BUT CLEANER/photos/Logo.png">
 
 THE A TEAM
 
@@ -11,7 +11,8 @@ Tech Stack used is<br>
 - PHP
 - MySQL
 
-```Team Details()
+```
+Team Details()
 {
   String Team_Name= " THE A TEAM ";
   String Team_Members[5]={ Chandan Soni,Kavish Soni,Maheep Nigam,Ritesh Singh,Shivramkrishna Tiwari};
