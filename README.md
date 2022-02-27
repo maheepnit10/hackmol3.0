@@ -47,7 +47,7 @@ food or distribute it using the moving vans.
 
 
 How do we function<br>
-<img src="photos/how_we_work.png">
+<img src="FOOD SAVIOURS BUT CLEANER/photos/how_we_work.png">
 
 
 
