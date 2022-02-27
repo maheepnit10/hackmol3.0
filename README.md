@@ -1,15 +1,15 @@
 ### 🔥 HACKMOL 3.0 🔥
-Project : FOOD SAVIOURS <br><img src="photos/logo.png">
+Project : FOOD SAVIOURS <br><img src="FOOD SAVIOURS/photos/logo.png">
 
 THE A TEAM
 
-Tech Stack used is 
--HTML
--CSS
--Bootstrap CSS
--JS
--PHP
--MySQL
+Tech Stack used is<br> 
+- HTML
+- CSS
+- Bootstrap CSS
+- JS
+- PHP
+- MySQL
 
 ```Team Details()
 {
