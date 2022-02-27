@@ -20,6 +20,7 @@ Is fresher: True
 Description of idea 
 Problem: 
 1. there are many unprivileged people who do not have access to the food even single times a day.
+
 2.the food from the houses, marriages, and restaurants is wasted everyday which accumulates to to wastage of 92000 crores annually in India.
 
 Solution: FOOD SAVIOURS
