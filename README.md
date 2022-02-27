@@ -1,9 +1,9 @@
 <p align="center"><strong> 🔥 HACKMOL 3.0 🔥 </strong></p>
-Project : FOOD SAVIOURS <br>
-           <img align="center" height="100em" src="FOOD SAVIOURS BUT CLEANER/photos/Logo.png">
+<p align="center">Project : FOOD SAVIOURS </p><br>
+ <p align="center"> <img height="100em" src="FOOD SAVIOURS BUT CLEANER/photos/Logo.png"></p>
 
 
-          🏆 THE A TEAM 🏆
+ <p align="center">🏆 THE A TEAM 🏆</p>
 <br>Tech Stack used is<br> 
 - HTML
 - CSS
@@ -26,8 +26,9 @@ Team Details()
 ```
 
 
-Description of idea 
+Description of idea <br>
 Problem: 
+
 1. there are many unprivileged people who do not have access to the food even single times a day.
 
 2.the food from the houses, marriages, and restaurants is wasted everyday which accumulates to to wastage of 92000 crores annually in India.
