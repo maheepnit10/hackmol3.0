@@ -1,8 +1,9 @@
 ### 🔥 HACKMOL 3.0 🔥
 Project : FOOD SAVIOURS <br>
-          &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; <img height="100em" src="FOOD SAVIOURS BUT CLEANER/photos/Logo.png">
+           <img height="100em" src="FOOD SAVIOURS BUT CLEANER/photos/Logo.png">
 
-THE A TEAM
+<p align="center">
+          🏆 THE A TEAM 🏆
 
 Tech Stack used is<br> 
 - HTML
@@ -11,7 +12,7 @@ Tech Stack used is<br>
 - JS
 - PHP
 - MySQL
-
+  </p>
 ```
 Team Details()
 {
