@@ -1,20 +1,27 @@
-HACKMOL 3.0
-Project : FOOD SAVIOURS
+### 🔥 HACKMOL 3.0 🔥
+Project : FOOD SAVIOURS <br><img src="photos/logo.png">
 
 THE A TEAM
 
 Tech Stack used is 
-1.HTML
-2.CSS
-3.Bootstrap CSS
-4.JS
-5.PHP
-6.MySQL
+-HTML
+-CSS
+-Bootstrap CSS
+-JS
+-PHP
+-MySQL
 
-Team Details
-Team Name: THE A TEAM
-Team Members: Chandan Soni,Kavish Soni,Maheep Nigam,Ritesh Singh,Shivramkrishna Tiwari
-Is fresher: True
+```Team Details()
+{
+  String Team_Name= " THE A TEAM ";
+  String Team_Members[5]={ Chandan Soni,Kavish Soni,Maheep Nigam,Ritesh Singh,Shivramkrishna Tiwari};
+  for(int i=0;i<5;i++)
+  {
+   System.out.println("Team_Members[i]");
+   }
+   System.out.println("are Freshers");
+}
+```
 
 
 Description of idea 
@@ -36,8 +43,9 @@ up's the food and distributes it with help of the NGO's. We either put up a lang
 food or distribute it using the moving vans.
 
 
-How do we function
-photo
+How do we function<br>
+<img src="photos/how_we_work.png">
+
 
 
 Video Link
