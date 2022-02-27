@@ -1,4 +1,4 @@
-<p align="center">### 🔥 HACKMOL 3.0 🔥</p>
+<p align="center"><strong> 🔥 HACKMOL 3.0 🔥 </strong></p>
 Project : FOOD SAVIOURS <br>
            <img align="center" height="100em" src="FOOD SAVIOURS BUT CLEANER/photos/Logo.png">
 
