@@ -4,15 +4,14 @@ Project : FOOD SAVIOURS <br>
 
 <p align="center">
           🏆 THE A TEAM 🏆
-
-Tech Stack used is<br> 
+<br>Tech Stack used is<br> 
 - HTML
 - CSS
 - Bootstrap CSS
 - JS
 - PHP
 - MySQL
-  </p>
+</p>
 ```
 Team Details()
 {
